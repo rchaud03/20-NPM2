@@ -1,0 +1,27 @@
+{
+  "name": "20-NPM2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "printinfo": "echo $npm_package_description",
+    "clean": "rm -rf node_modules",
+    "build": "npm install -S",
+    "start": "node index.js",
+    "clean-build": "npm run clean && npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "Ronald Chaudry",
+  "license": "ISC",
+  "dependencies": {
+    "20-npm-rchaud03": "^1.0.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "node": "^11.3.0",
+    "request": "^2.88.0",
+    "yargs": "^12.0.5",
+    "yars": "^1.2.0"
+  }
+}
